@@ -15,41 +15,42 @@
 </head>
 
 <body>
-    <!--=============== 
-          Nav Bar Section
-          ===============-->
+    <!--============================ 
+          Header and Nav Bar Section
+        ============================-->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <a class="navbar-brand" href="./index.html">Tom Black</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <a class="navbar-brand" href="./index.html">Tom Black</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
 
     <!-- =============
           Main Section
           =============-->
     <!-- All the following images are public domain and free from https://unsplash.com/ -->
-    
+
     <main class="container">
         <div class="card border-0 shadow my-5">
             <div class="card-body p-5">
@@ -57,49 +58,64 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-6">
                         <div class="card text-white">
-                            <a href="http://google.com"><img src="https://images.unsplash.com/photo-1573919779902-39c46fa3fbfb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="img-fluid img-thumbnail mx-auto" alt="Word Guess Picture">
-                            <div class="card-img-overlay">
-                              <h3 class="card-title card-image text-center">Word Guess</h3>
-                            </div></a>
-                          </div>
+                            <a href="http://google.com"><img
+                                    src="https://images.unsplash.com/photo-1573919779902-39c46fa3fbfb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+                                    class="img-fluid img-thumbnail mx-auto" alt="Word Guess Picture">
+                                <div class="card-img-overlay">
+                                    <h3 class="card-title card-image text-center">Word Guess</h3>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                     <div class="col-xs-12 col-sm-6">
                         <div class="card text-white">
-                            <a href="https://google.com"><img src="https://images.unsplash.com/photo-1567391454009-0894f63e5550?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="img-fluid img-thumbnail mx-auto" alt="Nintendo Switch Controllers Picture">
-                            <div class="card-img-overlay">
-                              <h3 class="card-title card-image text-center">RPG Game</h3>
-                            </div></a>
-                          </div>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6">
-                        <div class="card text-white">
-                           <a href="https://google.com"><img src="https://images.unsplash.com/photo-1570937943292-a574bd5bc722?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60 " class="img-fluid img-thumbnail mx-auto" alt="Trivia Game Picture">
-                            <div class="card-img-overlay">
-                              <h3 class="card-title card-image text-center">Trivia Game</h3>
-                            </div></a>
-                          </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6">
-                        <div class="card text-white">
-                            <a href="https://google.com"><img src="https://images.unsplash.com/photo-1566694271439-4ac12739dd71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60--" class="img-fluid img-thumbnail mx-auto" alt="Info Widget Picture">
-                            <div class="card-img-overlay">
-                              <h3 class="card-title card-image text-center">Info Widget</h3>
-                            </div></a>
-                          </div>
+                            <a href="https://google.com"><img
+                                    src="https://images.unsplash.com/photo-1567391454009-0894f63e5550?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+                                    class="img-fluid img-thumbnail mx-auto" alt="Nintendo Switch Controllers Picture">
+                                <div class="card-img-overlay">
+                                    <h3 class="card-title card-image text-center">RPG Game</h3>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col-xs-12 col-sm-6">
                         <div class="card text-white">
-                           <a href="./rock-paper-scissors.html"><img src="https://images.unsplash.com/photo-1522032662723-6649e699785f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60 " class="img-fluid img-thumbnail mx-auto" alt="Rock Paper Scissors Picture">
-                            <div class="card-img-overlay">
-                              <h3 class="card-title card-image text-center">Rock Paper Scissors Game</h3>
-                            </div></a>
-                          </div>
+                            <a href="https://google.com"><img
+                                    src="https://images.unsplash.com/photo-1570937943292-a574bd5bc722?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60 "
+                                    class="img-fluid img-thumbnail mx-auto" alt="Trivia Game Picture">
+                                <div class="card-img-overlay">
+                                    <h3 class="card-title card-image text-center">Trivia Game</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="card text-white">
+                            <a href="https://google.com"><img
+                                    src="https://images.unsplash.com/photo-1566694271439-4ac12739dd71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60--"
+                                    class="img-fluid img-thumbnail mx-auto" alt="Info Widget Picture">
+                                <div class="card-img-overlay">
+                                    <h3 class="card-title card-image text-center">Info Widget</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="card text-white">
+                            <a href="./rock-paper-scissors.html"><img
+                                    src="https://images.unsplash.com/photo-1522032662723-6649e699785f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60 "
+                                    class="img-fluid img-thumbnail mx-auto" alt="Rock Paper Scissors Picture">
+                                <div class="card-img-overlay">
+                                    <h3 class="card-title card-image text-center">Rock Paper Scissors Game</h3>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

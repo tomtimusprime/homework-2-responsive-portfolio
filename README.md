@@ -1,5 +1,16 @@
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
+INITIAL NOTES:
+* I used a simple version of Rock, Paper, Scissors that I coded after our class on Thursday, March 12th. It's the last image/link on the Portfolio page.
+* I made the header and footer sticky to hit the bonus criteria, however, I have a nicer footer commented out in the index.html file.
+* I ran through a mobile responsiveness check with Kevin-TA after class on March 14th, 2020.
+* Included fontawesome icons from their website and used their CDN to gain access to Linkedin, facebook and instagram icons, which are also linked to my social media pages.
+* Didn't use any media queries and used only bootstrap on this project.
+* Made some additional minor css changes in a separate CSS file.
+* Used semantic tags where it made sense for the header/nav bar, main section and footer section.
+* Included a search bar for aesthetics and hope to add functionality to it as we learn more.
+
+
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
 
 
