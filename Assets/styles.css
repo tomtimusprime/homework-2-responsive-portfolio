@@ -9,12 +9,12 @@ body {
   }
 
   #profile-pic {
-    height: 325px;
-    width: 225px;
+    max-height: 100%;
+    min-width: 100%;
   }
 
   .card-image {
-    background-color: #007bff;
+    background-color: #888D9D;
     color: white;
     border-radius: 25px;
   }
