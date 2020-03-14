@@ -8,5 +8,10 @@ body {
     -o-background-size: cover;
   }
 
+  #profile-pic {
+    height: 325px;
+    width: 225px;
+  }
+
 
   
