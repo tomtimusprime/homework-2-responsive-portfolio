@@ -13,6 +13,7 @@ body {
     min-width: 100%;
   }
 
+  /* Creating this calss allowed me to be able to style the labels on my photos in the portfolio.html file. */
   .card-image {
     background-color: #888D9D;
     color: white;
