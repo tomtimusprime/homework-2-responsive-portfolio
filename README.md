@@ -1,7 +1,7 @@
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
 INITIAL NOTES:
-* I used a simple version of Rock, Paper, Scissors that I coded after our class on Thursday, March 12th. It's the last image/link on the Portfolio page.
+* I used a simple version of Rock, Paper, Scissors that I coded after our class on Thursday, March 12th. It's the first image/link on the Portfolio page.
 * I made the header and footer sticky to hit the bonus criteria, however, I have a nicer footer commented out in the index.html file.
 * I ran through a mobile responsiveness check with Kevin-TA after class on March 14th, 2020.
 * Included fontawesome icons from their website and used their CDN to gain access to Linkedin, facebook and instagram icons, which are also linked to my social media pages.
