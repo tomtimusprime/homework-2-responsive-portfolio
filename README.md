@@ -1,5 +1,10 @@
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
+This is a simple portfolio website that tells a little bit about who I am and my professional background. In the portfolio section it also showcases some current and future projects that I'm working on. Finally, there's also a contact form to get in touch with me and social media links provided so we can stay in touch. 
+
+I used the bootstrap CSS framework and some custom CSS styling to build the website. 
+
+
 INITIAL NOTES:
 * I used a simple version of Rock, Paper, Scissors that I coded after our class on Thursday, March 12th. It's the first image/link on the Portfolio page.
 * I made the header and footer sticky to hit the bonus criteria, however, I have a nicer footer commented out in the index.html file.
