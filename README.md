@@ -9,6 +9,7 @@ INITIAL NOTES:
 * Made some additional minor css changes in a separate CSS file.
 * Used semantic tags where it made sense for the header/nav bar, main section and footer section.
 * Included a search bar for aesthetics and hope to add functionality to it as we learn more.
+* * * Used a validator on my files and there are no errors found within all 4 html files.
 
 
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
